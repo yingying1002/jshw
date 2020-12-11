@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var answer;
+		var guessanswer;
+		answer = Math.floor((Math.random()*10)+1);
+
+		guessanswer = window.prompt("Please enter a guessing number 1~10");
+			
+		while(guessanswer != answer){
+			guessanswer = window.prompt("Wrong number!Try again!");
+			}		
+			alert("Correct!");
+
+			//documrnt.Writeln("Correct!");
+	</script>
+</body>
+</html>
